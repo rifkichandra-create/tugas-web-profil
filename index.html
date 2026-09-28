@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya - Tugas CV</title>
+    
+    <style>
+        /* Pengaturan Tampilan Umum / Body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #333333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Container Pembungkus Kartu Profil */
+        .card-profil {
+            max-width: 650px;
+            margin: 30px auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border: 1px solid #e1e8ed;
+        }
+
+        /* Bagian Header dan Foto */
+        .header-profil {
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        .foto-profil {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #3498db;
+            margin-bottom: 15px;
+        }
+
+        .judul-halaman {
+            margin: 0;
+            color: #2c3e50;
+            font-size: 28px;
+        }
+
+        .sub-judul {
+            margin: 5px 0 0 0;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+
+        /* Tabel Biodata */
+        .tabel-biodata {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .tabel-biodata td {
+            padding: 12px 8px;
+            border-bottom: 1px solid #eeeeee;
+            font-size: 15px;
+        }
+
+        /* Baris terakhir tidak pakai garis bawah */
+        .tabel-biodata tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* Kolom Label / Judul Informasi */
+        .label {
+            font-weight: bold;
+            color: #2c3e50;
+            width: 35%;
+        }
+
+        /* Titik Dua separator */
+        .titik-dua {
+            width: 5%;
+            text-align: center;
+            color: #7f8c8d;
+        }
+
+        /* Isi Nilai Informasi */
+        .nilai {
+            color: #444444;
+        }
+
+        .nilai a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .nilai a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Halaman */
+        .footer {
+            text-align: center;
+            margin-top: 25px;
+            font-size: 12px;
+            color: #95a5a6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-profil">
+        
+        <!-- Header: Foto Profil dan Judul -->
+        <div class="header-profil">
+            <img src="richan bg.jpeg" alt="Foto Profil" class="foto-profil">
+            <h1 class="judul-halaman">Profil Diri</h1>
+            <p class="sub-judul">Curriculum Vitae Mahasiswa</p>
+        </div>
+
+        <table class="tabel-biodata">
+            <tr>
+                <td class="label">Nama Lengkap</td>
+                <td class="titik-dua">:</td>
+                <td class="nilai">Rifki Chandra Aditya
+                </td>
+            </tr>
+            <tr>
+                <td class="label">Tanggal Lahir</td>
+                <td class="titik-dua">:</td>
+                <td class="nilai">24 Juli 2006</td>
+            </tr>
+            <tr>
+                <td class="label">Hobi</td>
+                <td class="titik-dua">:</td>
+                <td class="nilai">Riding, Gaming, Nonton</td>
+            </tr>
+            <tr>
+                <td class="label">Alamat</td>
+                <td class="titik-dua">:</td>
+                <td class="nilai">Graha Karang Tengah F.83</td>
+            </tr>
+            <tr>
+                <td class="label">Asal Kota</td>
+                <td class="titik-dua">:</td>
+                <td class="nilai">Kota Tangerang</td>
+            </tr>
+            <tr>
+                <td class="label">Kontak Email</td>
+                <td class="titik-dua">:</td>
+                <td class="nilai"><a href="mailto:budi.santoso@email.com">rifkichandraaditya@email.com</a></td>
+            </tr>
+            <tr>
+                <td class="label">Nomor Telepon</td>
+                <td class="titik-dua">:</td>
+                <td class="nilai">0821-2839-4631</td>
+            </tr>
+        </table>
+
+        <!-- Footer ringkas -->
+        <div class="footer">
+            <p>&copy; 2026 Tugas Pemrograman Web - Pemula</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
